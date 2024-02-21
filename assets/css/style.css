@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(30, 30, 131);
+}
+#list{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.box{
+    width: calc(100%/10);
+    aspect-ratio: 1;
+    border: 1px solid white;
+    line-height: 100px;
+    text-align: center;
+    margin: 2px;
+    background-color: rgb(54, 103, 146);
+}
+
+.fizz{
+    background-color: rgb(14, 130, 22);
+}
+.buzz{
+    background-color: rgb(95, 10, 10);
+}
+.fizzbuzz{
+    background-color: burlywood;
+}
